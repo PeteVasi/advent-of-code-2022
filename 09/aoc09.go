@@ -13,7 +13,7 @@ type mov struct {
 }
 
 func main() {
-	raw, err := os.ReadFile("./input9.txt")
+	raw, err := os.ReadFile("./input9sample2.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
